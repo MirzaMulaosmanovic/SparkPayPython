@@ -78,4 +78,3 @@ class SparkPayClient(object):
     def getrequestheaders(self):
         """Gets the headers for requests to the SparkPay API"""
         return {'Content-Type': 'application/json', 'X-AC-Auth-Token': self.authtoken}
-        
